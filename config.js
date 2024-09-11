@@ -13,12 +13,12 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://whatsapp.com/channel/0029Vaj1vKSK5cDDT4tVvY1y";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaj1vKSK5cDDT4tVvY1y";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaj1vKSK5cDDT4tVvY1y";
+global.github = process.env.GITHUB || "https://chat.whatsapp.com/Ieh7ggGqeRIGF1xaKAxN4K";
+global.gurl = process.env.GURL || "https://chat.whatsapp.com/Ieh7ggGqeRIGF1xaKAxN4K";
+global.website = process.env.GURL || "https://chat.whatsapp.com/Ieh7ggGqeRIGF1xaKAxN4K";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || ".update ALIVE_IMG: https://telegra.ph/file/f6d28d28366f8260b81f9.jpg";
-global.devs = "https://t.me/examsolutionteam";
-global.sudo = process.env.SUDO || "";
+global.devs = "https://t.me/AdityaXd01";
+global.sudo = process.env.SUDO || "917318812338";
 global.owner = process.env.OWNER_NUMBER || "";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -37,8 +37,8 @@ global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
-global.api_smd = "https://whatsapp.com/channel/0029Vaj1vKSK5cDDT4tVvY1y";
-global.scan = "https://whatsapp.com/channel/0029Vaj1vKSK5cDDT4tVvY1y";
+global.api_smd = "https://chat.whatsapp.com/Ieh7ggGqeRIGF1xaKAxN4K";
+global.scan = "https://chat.whatsapp.com/Ieh7ggGqeRIGF1xaKAxN4K";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "ℙ𝕆𝕎𝔼ℝ𝔼𝔻 𝔹𝕐 乙◉Ꮋᴀʀʟᴇʏ乂",
-  author: process.env.PACK_AUTHER || "乙◉Ꮋᴀʀʟᴇʏ乂",
+  caption: process.env.CAPTION || "ℙ𝕆𝕎𝔼ℝ𝔼𝔻 𝔹𝕐 ◣Ꭼᴏη Ꭺᴅɪ֟፝ᴛʏꫝ◥",
+  author: process.env.PACK_AUTHER || "◣Ꭼᴏη Ꭺᴅɪ֟፝ᴛʏꫝ◥",
   packname: process.env.PACK_NAME || "",
   botname: process.env.BOT_NAME || "乙◉Ꮋᴀʀʟᴇʏ乂",
-  ownername: process.env.OWNER_NAME || "乙◉Ꮋᴀʀʟᴇʏ乂",
+  ownername: process.env.OWNER_NAME || "◣Ꭼᴏη Ꭺᴅɪ֟፝ᴛʏꫝ◥",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
